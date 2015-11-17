@@ -1,0 +1,28 @@
+{
+	"player": [
+				{
+					"density": 2, "friction": 0, "bounce": 0, 
+					"filter": { "categoryBits": 1, "maskBits": 65535 },
+					"shape": [ 20, 2 , 60, 2 , 60, 45, 20, 45 ]
+				},  
+				{
+					"density": 2, "friction": -100, "bounce": 200, 
+					"filter": { "categoryBits": 1, "maskBits": 65535 },
+					"shape": [ 40, 0 ,  60, 60, 20, 60 ]
+				} 
+				
+
+
+
+		],
+		"ground":[
+				{
+					"density": 2, "friction": 0, "bounce": 0,
+					"filter": { "categoryBits": 1, "maskBits": 65535 },
+					"shape": [ 0, 0 , 800, 0 , 800, 20, 0, 20 ]
+				}
+
+		]
+
+
+	}
